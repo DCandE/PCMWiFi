@@ -13,9 +13,15 @@ dialpad-voice1	80.591970000	192.168.2.158	dialpad-voice1	255.255.255.255	UDP	151
 msgtype=PCMWiFi; DeviceID=001EC0004FE6; Inst=891; Reg=619544; Temp=18; BattLow=0; SQI=100; uTime=1385935955;
 
 "msgtype" Identifies the PCMWiFi
+
 "DeviceID" serial number of sensor
+
 "Inst" is the Watt consumption
+
 "Reg" is accumulated total?
+
 "Temp" is the temperature at the meter in C
+
 "BattLow" is 0=Normal, 1=Low Battery
+
 "SQI" is the signal strength in %
